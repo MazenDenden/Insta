@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Insta</string>
+
+    <!-- Login Text -->
+    <string name="no_account">Don\'t have an account yet?</string>
+    <string name="signup_text">Sign Up</string>
+    <string name="loginButtonText">Login</string>
+    <string name="passwordText">Password</string>
+    <string name="usernameText">Username</string>
+
+    <!-- Register Text -->
+    <string name="registerButtonText">Register</string>
 </resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#008080"
+    tools:context="com.esprit.mazen.insta.RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/RegisterUsernameEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/usernameText"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/RegisterPasswordEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/passwordText"
+        android:textAlignment="center"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/RegisterReenterPasswordEditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Re-enter Password"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/RegisterButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/registerButtonText" />
+
+</LinearLayout>
